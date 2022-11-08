@@ -1,6 +1,6 @@
 # Professional Web Development - Creative IT 
 
-## CRUD Project 01  - Class 08
+## Login and Logout  - Class 09
 
 ## Feature's - 
 
@@ -11,9 +11,11 @@
 * VIEW DATA
 * UPDATE DATA
 * DELETE DATA
+* USER LOGIN
+* LOGOUT
+* PROFILE UPLOAD
 
 ## EXTRA ## 
 * SETUP A ADMIN DASHBOARD
-* CRAETE A MODERN FRONT-END SITE WITH NAVBAR 
+ 
   
-"# Class-09-Login-and-Profile-Update" 
