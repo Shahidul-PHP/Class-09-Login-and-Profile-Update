@@ -1,0 +1,19 @@
+# Professional Web Development - Creative IT 
+
+## CRUD Project 01  - Class 08
+
+## Feature's - 
+
+* NEW USER REGISTRATION
+* USER'S INFORMATION VALIDATE
+* CREATE A MYSQL DATABASE
+* INSERT DATA
+* VIEW DATA
+* UPDATE DATA
+* DELETE DATA
+
+## EXTRA ## 
+* SETUP A ADMIN DASHBOARD
+* CRAETE A MODERN FRONT-END SITE WITH NAVBAR 
+  
+"# Class-09-Login-and-Profile-Update" 
