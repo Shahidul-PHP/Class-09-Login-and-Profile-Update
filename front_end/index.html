@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Application</title>
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <!-- main code start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Student Management App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>                       
+                        <li class="nav-item">
+                            <a  target="_blank" class="nav-link" href="../user_info/users.php">Show Students</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" href="../dashboard.php">Admin Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link" href="../register.php">Create Account</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1525921429624-479b6a26d84d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- carousel end -->
+
+    <!-- content start -->
+
+    <div class="container">
+        <div class="row mt-5 mb-5 p-5 text-center">
+            <div class="col-md-4 m-auto mb-3 box1 border-0">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern Education</h5>                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 m-auto mb-3 box2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Expert Teachers</h5>                      
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 m-auto mb-3 box3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Update Technology</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about us -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="mb-3">About Our College</h2>
+            </div>
+                <p class="text-justify">our country education is not given that much importance and so it is not taken seriously my many scholars. This is
+                because there is a big loop is the way the education is taught in many schools and colleges.              
+                The concept of education is misunderstood my many students. Students want to study in order to make money and become
+                rich so that they can fulfill their wants. Similarly money is invested by parents in terms of the amount of investment
+                it will reap in the future. Because of this reason females are not given much higher education in our country. Teachers
+                nowadays also opt colleges and schools where they do not have to give daily lectures and can make double earning by
+                college salaries and personal home tuitions.<p/>
+                <p class="text-justify">We have separate panel of teachers who identifies our potentials and guides us which career we should choose & in which
+                industries we can accelerate well in terms of our skills and abilities. To solve our difficulties our teachers conducts
+                extra sessions for us so that we do not have to take the help of tutors and score well in the exams.</p>
+            </div>
+        </div>
+    </div>
+    <!-- 
+        our partners
+     -->
+     
+     <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="mb-4 mt-5">Our Tech Partners</h2>
+            </div>
+            <div class="col-md-4 partners">
+                <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/microsoft-logo.png">
+            </div>
+            <div class="col-md-4 partners">
+                <img
+                    src="https://t.ctcdn.com.br/essK16aBUDd_65hp5umT3aMn_i8=/400x400/smart/filters:format(webp)/i606944.png">
+            </div>
+            <div class="col-md-4 partners">
+                <img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/009/097/186/small/blue-color-white-background-linkedin-design-logo-sign-symbol-free-vector.jpg">
+            </div>
+
+           
+            <div class="col-md-4 partners">
+                <img src="https://images.prismic.io/launchdarkly/ZWQ2YzRhNTItYzg4Ny00NjA0LWI0NzItZWI5Mzg5ZDc3NDIy_visualstudio_code-card.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&rect=0%2C0%2C480%2C240&w=480&h=240">
+            </div>
+            <div class="col-md-4 partners mb-5">
+                <img src="data:image/png;base64,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">
+            </div>
+        </div>
+     </div>
+          
+     <!-- maps intrigration -->
+     <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="mt-5 mb-4">You Can Find Us </h2>
+            </div>
+           <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-6">
+                    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </div>
+     </div>
+    <!-- main code end -->
+
+    <!-- footer -->
+
+    <footer>
+        <p class="mt-5 text-center p-4 mb-0 bg-primary text-white">&copy; All Rights Reserved  ||  Site Design and Developed By <a href="">Shahidul Islam Khan</a></p>
+    </footer>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <!-- our custom js if need -->
+    <script></script>
+</body>
+</html>
