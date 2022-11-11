@@ -1,4 +1,6 @@
+
 <?php
+require '../login_req.php';
 require '../db.php';
 session_start();
 

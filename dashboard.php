@@ -1,3 +1,9 @@
+<?php 
+if (!isset($_SESSION['login_confirm'])){
+    header('location:login.php');
+}
+?>
+
 <?php require 'dashboard_parts/header2.php' ?>
 
 

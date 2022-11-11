@@ -85,6 +85,9 @@ session_start();
                 <button type="submit">
                     <span>CREATE NEW ACCOUNT</span>
                 </button>
+                <br>
+                <p>Already have an Account ? <a href="login.php"><strong>Login Here</strong></a></p>
+
             </form>
 
             <img src="dashboard_asset/colorlib-regform-26/images/image-2.png" alt="" class="image-2">

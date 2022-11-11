@@ -85,7 +85,7 @@ if($flag){
     $insert_data  = "INSERT INTO students(name,department,email,password) VALUES('$name','$department','$email','$after_hash')";
     mysqli_query($db_connection,$insert_data);
 
-    $_SESSION['confirmation'] = 'Account Created Successfully';
+    $_SESSION['confirmation'] = 'Account Created Successfully <br> You Can Login Now';
     header('location:register.php');
 }
 

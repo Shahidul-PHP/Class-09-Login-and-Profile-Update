@@ -35,7 +35,8 @@
         .iconn:hover {
             color: red;
         }
-        button{
+
+        button {
             font-size: 15px;
         }
     </style>
@@ -865,8 +866,7 @@
                             <span class="nav-text">Users</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="user_info/users.php">User List</a></li>
-                            <li><a href="./app-profile.html">Upadte User</a></li>
+                            <li><a href="../Class-09/user_info/users.php">User List</a></li>
                         </ul>
                     </li>
                 </ul>
